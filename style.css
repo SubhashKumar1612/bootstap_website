@@ -1,0 +1,39 @@
+.hurry-up {
+    background-color: rgb(237, 62, 178);
+    width: auto;
+    height: auto;
+    padding: 10px 20px;
+    border-radius: 50px;
+    white-space: nowrap; 
+}
+
+.bg-outline-primary:hover {
+    background-color: rgb(237, 62, 178)!important;
+    color: white !important; 
+}
+
+.bg-outline-primary:hover .text {
+    color: white !important; 
+}
+
+.bg-outline-primary:hover .badge {
+    background-color: white !important;
+    color: var(--bs-primary) !important;
+}
+.card{
+    border-top-left-radius: 25px !important;
+    border-bottom-right-radius: 25px !important;
+}
+@media (max-width: 768px) {
+    .card-body {
+        padding: 1rem; /* Reduce padding for small screens */
+    }
+    
+    .card h2 {
+        font-size: 1.4rem; /* Reduce font size */
+    }
+
+    .d-flex {
+        flex-wrap: wrap; /* Ensure text and icons stay within the card */
+    }
+}
